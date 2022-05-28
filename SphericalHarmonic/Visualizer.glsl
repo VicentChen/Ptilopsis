@@ -1,6 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //////////                    FILE: SphericalHarmonic/Visualizer.glsl                    //////////
-////////// NOTE: 1. Copy this file to the Image tab                                      //////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 vec3 visualize(in vec2 fragCoord, in vec2 fragResolution) {
@@ -80,3 +79,4 @@ vec3 visualize(in vec2 fragCoord, in vec2 fragResolution) {
 void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 	fragColor = vec4(visualize(fragCoord, iResolution.xy), 1.0);
 }
+

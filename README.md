@@ -4,15 +4,14 @@ Graphics algorithms and techniques implemented in (GLSL) shaders, which can be e
 
 ## Usage
  - Generate executable code in ShaderToy: execute `GenerateShaderToyCode.bat` in project root directory.
-
-## Features
- - Interactive camera in ShaderToy.
- - Ray tracing framework.
-![](Documents/Images/InteractiveCamera.gif)
+ - Generated files:
+	- `Common.glsl`: Basic code for this project, includes ray tracing, sampling, etc.
+	- `BufferA.glsl`: Code for interactive camera.
 
 ## Implementated algorithms/techinques
- - Atmosphere rendering.
-![](Documents/Images/AtmosphereRendering.gif)
-
- - Spherical Harmonic Visualizer(Order 0 to 4)
-![](Documents/Images/SHVisualizer.gif)
+|||
+| - | - |
+| ![](Documents/Images/SHVisualizer.gif) | ![](Documents/Images/SHEnvmap.gif) |
+| Visualize spherical harmonics(Order 0-4) | Encoding environtment map to spherical harmonics |
+| ![](Documents/Images/AtmosphereRendering.gif) | ![](Documents/Images/InteractiveCamera.gif) |
+| Atmosphere rendering with ray marching | Interactive camera & ray tracing framework |
