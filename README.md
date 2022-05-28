@@ -9,6 +9,8 @@ Graphics algorithms and techniques implemented in (GLSL) shaders, which can be e
 	- `BufferA.glsl`: Code for interactive camera.
 
 ## Implementated algorithms/techinques
+(Preview of implemented results/GIFs may requrie some time...)
+
 |||
 | - | - |
 | ![](Documents/Images/SHVisualizer.gif) | ![](Documents/Images/SHEnvmap.gif) |
